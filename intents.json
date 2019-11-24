@@ -1,0 +1,43 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?", "Can I help you with anything?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Bye, hope to see you soon :)", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "identity",
+         "patterns": ["what is umat", "whats your umat?"],
+         "responses": ["UMaT stands for University of Mines and Technology", "UMaT is a university in Ghana", "UMaT is the premier mining university in West Africa"],
+         "context_set": ""
+        },
+        {"tag": "admissions",
+         "patterns": ["when is the next admission registration", "when will the admission forms out", "hours of operation"],
+         "responses": ["We will be taking admissions in early January", "Admissions will be in February"],
+         "context_set": ""
+        },
+        {"tag": "academic",
+         "patterns": ["What programmes are offered?", "What programmes do you do?"],
+         "responses": ["The university offers mining related programmes and generic engineering programmes"],
+         "context_set": ""
+        },
+        {"tag": "location",
+         "patterns": ["Where is UMaT located?", "What is the location of UMaT?", "Location of UMaT"],
+         "responses": ["The university is located in Tarkwa, Western Region"],
+         "context_set": ""
+        },
+        {"tag": "students",
+         "patterns": ["What is the student population?", "How many students do you have?"],
+         "responses": ["About 2,000 student I think. probably more"],
+         "context_set": ""
+        },
+        {"tag": "accomodation",
+         "patterns": ["What is the student population?", "How many students do you have?"],
+         "responses": ["About 2,000 student I think. probably more"],
+         "context_set": ""
+        }
+   ]
+}
