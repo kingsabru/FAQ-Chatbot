@@ -16,7 +16,7 @@ deactivate
 # List created virtual environments
 conda env list
 ```
-###Prerequisites
+### Installing
 The chatbot was created with the following python packages. You can install the packages using the commands:
 ```
 pip install nltk 
@@ -30,7 +30,7 @@ To start the chatbot, use the command:
 ```
 python bot.py 
 ```
-To retrain model after making changes to intent.json file, use the commamnd:
+To retrain model after making changes to intent.json dataset, use the command:
 ```
 python trainbot.py
 ```
@@ -42,4 +42,4 @@ python trainbot.py
 * **Kingsley Abru** - *Initial work* - [kingsabru](https://github.com/kingsabru)
 
 ## Acknowledgments
-** Thanks to [Dinesh S](https://github.com/dineshsambasivam) for using his chatbot project as a reference guide for this project.
+* Thanks to [Dinesh S](https://github.com/dineshsambasivam) for using his chatbot project as a reference guide for this project.
